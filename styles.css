@@ -1,0 +1,86 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+                 Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Page Background */
+body {
+    background: #146895; /* MealTracker blue */
+    color: white;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.logo {
+    height: 140px; /* Large, clean, professional */
+    margin-bottom: 12px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #d9ecf7;
+    margin-top: 4px;
+}
+
+/* Content Container */
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px 24px;
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Section Headers */
+h2 {
+    font-size: 22px;
+    margin: 28px 0 10px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 16px 0 6px;
+    font-weight: 600;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Updated Date */
+.updated {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #e3f4ff;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #d9ecf7;
+    font-size: 14px;
+}
