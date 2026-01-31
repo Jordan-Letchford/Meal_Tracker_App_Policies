@@ -70,6 +70,12 @@ li {
     margin-bottom: 6px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
 /* Updated Date */
 .updated {
     font-size: 15px;
